@@ -1,0 +1,310 @@
+/*
+ Theme Name:   Storefront Child
+ Description:  A child theme for Storefront
+ Author:       Gendi
+ Template:     storefront
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  storefrontchild
+*/
+
+/*Importerer google fonte til headings og tekst*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/*Fastgør headeren til at være fixed på siden*/
+#masthead {
+    height: 7rem;
+    position: fixed;
+    width: 100vw;
+}
+
+/*Indholdet på selv siderne bliver rykket ned under headeren*/
+.site-content {
+    margin-top: 7rem;
+}
+
+
+/*Fjernet Storefronts søgefelt i headeren*/
+.search-field {
+    display: none;
+}
+
+.woocommerce-product-search {
+    display: none;
+}
+/*SLUT*/
+
+/*CSS til Logo i headeren*/
+.logo-flex {
+    width: 100vw;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+}
+
+.header-logo-link {
+    position: absolute;
+    align-self: center;
+    width: 8%;
+    top: 0.5rem;
+    height: auto;   
+}
+
+.header-logo {
+width: 70%;
+height: auto; 
+}
+/*SLUT*/
+
+/*Navigationen i headeren*/
+.storefront-primary-navigation {
+    position: absolute;
+    top: 1rem;
+    width: 83vw;
+    left: 8vw;
+}
+
+/*Menuen i headeren*/
+.main-navigation ul li a {
+    font-size: 1.2rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*Den angivende pris i headeren*/
+.woocommerce-Price-amount {
+    font-size: 1.2rem;
+    font-family: 'Raleway', sans-serif;
+}
+/*SLUT*/
+
+
+
+/*FOOTER CSS*/
+
+
+
+/*Footer*/
+#colophon {
+    padding: 0;
+}
+
+/*Footerens container der bliver sat op i grid*/
+.footer-widgets {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "logo logo logo"
+    "info some tekst"
+}
+
+/*widget 1 CSS*/
+.footer-widget-1{
+    grid-area: logo;
+    display: block;
+    margin-left: 45%;
+}
+
+/*widget 2 CSS*/
+.footer-widget-2{
+    grid-area: info;
+}
+
+/*widget 2 informations tekst*/
+.footer-information {
+    width: 20rem;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+}
+
+/*widget 3 CSS*/
+.footer-widget-3{
+    grid-area: some;
+    display: flex;
+    margin-left: 8rem;
+    width: 20rem;
+}
+
+/*widget 4 CSS*/
+.footer-widget-4{
+    grid-area: tekst;
+    margin-left: 30%;
+}
+
+/*widget 4 overskrift CSS*/
+.footer-widget4-h5 {
+    font-family:'Bebas Neue', cursive;
+    letter-spacing: 5px;
+    font-size: 25px;
+    width: 10rem;
+    margin-bottom: 10px;
+}
+
+/*widget 4 tekst CSS*/
+.footer-widget4-text{
+    width: 20rem;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+/*info tekst nederst i footer*/
+.site-info {
+    text-align: center;
+    padding: 5px 0 5px 0;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+}
+/*SLUT*/
+
+
+
+
+/*FORSIDE CSS*/
+
+
+
+/*Hero/Coverbillede CSS*/
+/*containeren på hero-billedet med tekst og knaå*/
+.wp-block-cover__inner-container{
+    margin-top: 50px;
+    margin-left: -35%;
+}
+
+/*rubrikken på hero-billedet*/
+.landing-hero-h2 {
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 5px;
+}
+
+/*under rubrikken på hero-billedet*/
+.landing-hero-h4 {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+    margin-top: -2%;
+}
+
+.landing-hero-knap {
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding-top: 25px;
+}
+/*SLUT*/
+
+/*Vision sektionen*/
+/*Overskriften/Rubrikkens CSS*/
+.landing-vision-h2 {
+    font-family:'Bebas Neue', cursive;
+    letter-spacing: 5px;
+}
+
+/*Tekstens CSS*/
+.landing-vision-text {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+    line-height: 2rem;
+    margin-bottom: 5rem;
+}
+/*SLUT*/
+
+
+
+/*SHOP CSS*/
+/*Under header sektionen på shopsiden*/
+.woocommerce-products-header {
+    padding: 0;
+}
+
+/*Informationsteksten under hero-billedet*/
+.shop-info-tekst {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 2px;
+    line-height: 1.8rem;
+    margin-top: 3rem;
+    font-size: 15px;
+}
+/*SLUT*/
+
+/*filterlinjen inden selve shoppen*/
+.woocommerce-result-count {
+    display: none;
+}
+
+.orderby {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 2px;
+    color: #0b0b0b;
+    font-size: 0.8rem;
+}
+
+select.orderby{
+    background-color: white;
+    border-color: white;
+}
+/*SLUT*/
+
+/*Titler til alle produkter CSS*/
+.woocommerce-loop-product__title {
+    font-family:'Bebas Neue', cursive;
+    letter-spacing: 4px;
+}
+
+/*Priser til produkternes CSS*/
+.woocommerce-Price-amount {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+    font-size: 1rem;
+}
+
+/*knapper under hver produkt*/
+.add_to_cart_button {
+    background-color: #8daf9f;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 2px;
+    font-size: 13px;
+}
+/*SLUT*/
+
+
+
+
+/*Produktside CSS*/
+
+
+
+/*Zoom knap på produkt-billedet*/
+.woocommerce-product-gallery__trigger::before{
+    background-color: white;
+    color: #dbc0b9;
+}
+
+/*Produkt title*/
+.entry-summary h1 {
+    font-family:'Bebas Neue', cursive;
+    letter-spacing: 4px;
+}
+
+/*Produktets pris*/
+.entry-summary p {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+}
+
+/*De små beskrivelser som kategori og tags*/
+.product_meta span {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+    font-size: 12px;
+    color: #dbc0b9;
+}
+
+.woocommerce-message {
+    background-color: #dbc0b9;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+}
