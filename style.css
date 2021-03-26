@@ -78,6 +78,12 @@ height: auto;
     font-size: 1.2rem;
     font-family: 'Raleway', sans-serif;
 }
+
+/*CSS til dropdown menu ved shopping-carten'*/
+.widget_shopping_cart_content {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+}
 /*SLUT*/
 
 
@@ -275,6 +281,21 @@ select.orderby{
 
 /*Produktside CSS*/
 
+/*Sticky meddelse på produktsiden*/
+.storefront-sticky-add-to-cart__content-title {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+}
+
+.storefront-sticky-add-to-cart__content-title strong {
+    font-family:'Bebas Neue', cursive;
+    letter-spacing: 4px;
+}
+
+.storefront-sticky-add-to-cart__content-button {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+}
 
 
 /*Cart meddelse på produktsiden*/
@@ -308,4 +329,38 @@ select.orderby{
     letter-spacing: 1px;
     font-size: 12px;
     color: #dbc0b9;
+}
+
+/*Woocommerce beskrivelses sektion*/
+.woocommerce-tabs {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+}
+
+/*Beksrivelse sektion*/
+#tab-description h2 {
+    font-family:'Bebas Neue', cursive;
+    letter-spacing: 4px;
+}
+
+#tab-description p {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+}
+
+/*tilføjende information*/
+#tab-additional_information h2 {
+    font-family:'Bebas Neue', cursive;
+    letter-spacing: 4px;
+}
+
+.woocommerce-product-attributes {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+}
+
+/*relaterede produkter*/
+.related {
+    font-family:'Bebas Neue', cursive;
+    letter-spacing: 4px;
 }
