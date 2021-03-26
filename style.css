@@ -364,3 +364,130 @@ select.orderby{
     font-family:'Bebas Neue', cursive;
     letter-spacing: 4px;
 }
+
+
+
+
+/*Kurven-sidens CSS*/
+
+
+
+
+/*tom kurv warning*/
+.cart-empty {
+    background-color: #dd7054;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+}
+
+/*Tabel overskrifter*/
+thead {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+}
+
+.product-name a{
+    font-family:'Bebas Neue', cursive;
+    letter-spacing: 4px;
+    color: #8daf9f;
+}
+
+/*coupon linjens CSS*/
+.input-text {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+}
+
+.coupon .button {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+}
+
+/*sektionen med opsumering af kurvens værdi*/
+.cart_totals h2{
+    font-family:'Bebas Neue', cursive;
+    letter-spacing: 4px;
+}
+
+.cart_totals tbody {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+}
+
+/*Chehc ud knap*/
+.checkout-button {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+}
+
+
+
+
+/*Chechout siden*/
+
+
+
+
+/*rabatcoupon meddelelse*/
+.woocommerce-info {
+    background-color: #dbc0b9;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+}
+
+.woocommerce-form-coupon {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+}
+
+.form-row-last button {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+}
+
+/*Faktureringsoplysningernes CSS*/
+.woocommerce-billing-fields h3 {
+    font-family:'Bebas Neue', cursive;
+    letter-spacing: 4px;
+}
+
+.woocommerce-billing-fields__field-wrapper {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+}
+
+/*"Anden adresse" CSS*/
+.woocommerce-form__label-for-checkbox span {
+    font-family:'Bebas Neue', cursive;
+    letter-spacing: 4px;
+}
+
+.shipping_address .woocommerce-shipping-fields__field-wrapper {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+}
+
+.woocommerce-additional-fields {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+}
+
+/*"Min ordrer CSS"*/
+#order_review_heading {
+    font-family:'Bebas Neue', cursive;
+    letter-spacing: 4px;
+}
+
+.woocommerce-checkout-review-order {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+}
+
+.woocommerce-notice {
+    background-color: #8daf9f;
+}
+
+/*Fejl meddelelser*/
+.woocommerce-error {
+    background-color: #dd7054;
+}
