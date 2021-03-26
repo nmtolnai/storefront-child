@@ -277,6 +277,13 @@ select.orderby{
 
 
 
+/*Cart meddelse på produktsiden*/
+.woocommerce-message {
+    background-color: #dbc0b9;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+}
+
 /*Zoom knap på produkt-billedet*/
 .woocommerce-product-gallery__trigger::before{
     background-color: white;
@@ -301,10 +308,4 @@ select.orderby{
     letter-spacing: 1px;
     font-size: 12px;
     color: #dbc0b9;
-}
-
-.woocommerce-message {
-    background-color: #dbc0b9;
-    font-family: 'Raleway', sans-serif;
-    letter-spacing: 1px;
 }
