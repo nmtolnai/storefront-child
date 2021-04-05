@@ -566,7 +566,8 @@ label {
 }
 
 .header-logo {
-width: 110%;
+width: 100%;
+height: auto;
 }
 /*SLUT*/
 
@@ -638,5 +639,229 @@ width: 110%;
 /*rubrikken på hero-billedet*/
 .landing-hero-h2 {
     width: 25rem;
+}
+
+/*vision sektionen*/
+.landing-vision-h2{
+    margin-top: 5rem;
+}
+
+.landing-vision-text{
+    margin-bottom: 5rem;
+}
+}
+
+
+
+/*MEDIE QUERIES MOBILE*/
+/*Medie Queries max. 640px___tablet*/
+@media screen and (max-width:640px) {
+/*Fastgør headeren til at være fixed på siden*/
+#masthead {
+    height: 5rem;
+}
+
+/*Indholdet på selv siderne bliver rykket ned under headeren*/
+.site-content {
+    margin-top: 5rem;
+}
+
+/*CSS til Logo i headeren*/
+.logo-flex {
+    width: 400vw;
+    justify-content:flex-start;
+    margin-left: 2rem;
+}
+
+.header-logo-link {
+    top: 0.5rem;
+}
+
+.header-logo {
+width: 70%;
+height: auto; 
+}
+/*SLUT*/
+
+/*Navigationen i headeren*/
+.storefront-primary-navigation {
+    top: 1.4rem;
+    left: 40vw;
+}
+
+/*menu-knappen*/
+.main-navigation .menu-toggle{
+    border: none;
+    margin-right: 5.5rem;
+}
+
+.menu-toggle span{
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+}
+
+/*baggrundsfarven i menuen*/
+.handheld-navigation {
+    background-color: #8daf9f;
+    width: 80%;
+    height: 35rem;
+}
+
+#menu-mobilmenu {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+    text-align: end;
+    margin-right: 2.5rem;
+    padding-top: 1rem;
+}
+/*SLUT*/
+
+
+/*FOOTER CSS*/
+/*Footerens container der bliver sat op i grid*/
+.footer-widgets {
+    display: flex;
+    flex-direction: column;
+}
+
+/*widget 1 CSS*/
+.footer-widget-1{
+    display: block;
+    margin-top: 4rem;
+    margin-left: 34%;
+}
+
+/*widget 2 informations tekst*/
+.footer-information {
+    text-align: center;
+}
+
+/*widget 3 CSS*/
+.footer-widget-3{
+    margin-left: 2.5%;
+    width: 20rem;
+}
+
+/*widget 4 CSS*/
+.footer-widget-4{
+    margin-left: 0;
+    text-align: center;
+}
+
+/*widget 4 overskrift CSS*/
+.footer-widget4-h5 {
+    margin-left: 26%;
+}
+
+/*info tekst nederst i footer*/
+.site-info {
+    margin-bottom: 6rem;
+}
+/*SLUT*/
+
+/*Sticky menu i bunden af mobile-versionen*/
+.storefront-handheld-footer-bar {
+    background-color:#dbc0b9 ;
+    border-top: none;
+}
+
+/*flernet "my-account" knap*/
+.columns-3 .my-account{
+    display: none;
+}
+
+/*fjernet knappen for søgning*/
+.columns-3 .search{
+    display: none;
+}
+
+/*knappen med kurven*/
+.columns-3 .cart .footer-cart-contents {
+    background-color: #dbc0b9;
+}
+
+.cart {
+    margin-left: 35%;
+    height: 3.5rem;
+}
+
+
+/*FORSIDE CSS*/
+/*Hero/Coverbillede CSS*/
+/*containeren på hero-billedet med tekst og knaå*/
+.wp-block-cover__inner-container{
+    margin-left: -6rem;
+}
+
+.landing-hero {
+    margin-left: -2rem;
+    width: 31rem;
+}
+
+/*Vision sektionen*/
+/*Overskriften/Rubrikkens CSS*/
+.landing-vision-h2 {
+    margin-top: 5rem;
+}
+
+/*Tekstens CSS*/
+.landing-vision-text {
+    font-size: 13px;
+    margin-bottom: 5rem;
+}
+
+/*Galleri på forsiden*/
+.blocks-gallery-grid {
+    justify-content: center;
+}
+/*SLUT*/
+
+
+/*SHOP CSS*/
+/*Informationsteksten under hero-billedet*/
+.shop-info-tekst {
+    font-size: 12px;
+}
+/*SLUT*/
+
+
+/*Produktside CSS*/
+/*Produkt title*/
+.entry-summary h1 {
+    font-size: 40px;
+}
+
+/*Produktets pris*/
+.entry-summary p {
+    font-size: 15px;
+}
+
+
+/*Kurven-sidens CSS*/
+.woocommerce-cart-form__contents {
+    margin-left: 0;
+}
+
+
+/*Kontakt sidens CSS*/
+/*Overskriften på kontaktsiden*/
+.kontakt-overskrift {
+    padding-top: 2rem;
+}
+
+/*tekst-sektionen på kontaktsiden*/
+.kontakt-tekst-info {
+    padding: 1rem 3rem 1rem 3rem;
+}
+
+/*kontakt formularens CSS*/
+.kontakt-formular {
+    margin-top: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.wpcf7-validates-as-required {
+    width: 14.5rem;
 }
 }
