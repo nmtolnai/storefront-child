@@ -206,6 +206,7 @@ height: auto;
 .landing-vision-h2 {
     font-family:'Bebas Neue', cursive;
     letter-spacing: 5px;
+    margin-top: 10rem;
 }
 
 /*Tekstens CSS*/
@@ -213,7 +214,7 @@ height: auto;
     font-family: 'Raleway', sans-serif;
     letter-spacing: 1px;
     line-height: 2rem;
-    margin-bottom: 5rem;
+    margin-bottom: 10rem;
 }
 /*SLUT*/
 
@@ -280,6 +281,9 @@ select.orderby{
 
 
 /*Produktside CSS*/
+
+
+
 
 /*Sticky meddelse på produktsiden*/
 .storefront-sticky-add-to-cart__content-title {
@@ -490,4 +494,149 @@ thead {
 /*Fejl meddelelser*/
 .woocommerce-error {
     background-color: #dd7054;
+}
+
+
+
+
+/*Kontakt sidens CSS*/
+
+
+
+/*Overskriften på kontaktsiden*/
+.kontakt-overskrift {
+    font-family:'Bebas Neue', cursive;
+    letter-spacing: 4px;
+    padding-top: 3rem;
+}
+
+/*tekst-sektionen på kontaktsiden*/
+.kontakt-tekst-info {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+    padding: 3rem 10rem 3rem 10rem;
+    margin: 0;
+    text-align: center;
+}
+
+/*kontakt formularens CSS*/
+.kontakt-formular {
+    margin-top: 5rem;
+    padding-left: 12rem;
+    padding-right: 12rem;
+}
+
+/*kontakt formularens overskrfiter*/
+label {
+    font-family:'Bebas Neue', cursive;
+    letter-spacing: 4px;
+}
+
+/*kontakt formularens knap*/
+.wpcf7-submit {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+}
+
+
+
+
+
+/*MEDIE QUERIES TABLET*/
+
+
+
+
+/*Medie Queries max. 768px___tablet*/
+@media screen and (max-width:768px) {
+    /*Fastgør headeren til at være fixed på siden*/
+#masthead {
+    height: 6rem;
+}
+
+/*Indholdet på selv siderne bliver rykket ned under headeren*/
+.site-content {
+    margin-top: 6rem;
+}
+/*SLUT*/
+
+/*CSS til Logo i headeren*/
+.header-logo-link {
+    top: 0;  
+}
+
+.header-logo {
+width: 110%;
+}
+/*SLUT*/
+
+/*Navigationen i headeren*/
+.storefront-primary-navigation {
+    top: 0.7rem;
+    left: 1vw;
+}
+
+/*Menuen i headeren*/
+.main-navigation ul li a {
+    font-size: 0.9rem;
+}
+
+/*Den angivende pris i headeren*/
+.woocommerce-Price-amount {
+    font-size: 0.9rem;
+}
+
+.cart-contents {
+    right: -10vw;
+    min-width: 20vw;
+}
+/*SLUT*/
+
+
+/*Footer*/
+/*Footerens container der bliver sat op i grid*/
+.footer-widgets {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "logo logo"
+    "some some"
+    "info tekst"
+}
+
+/*widget 3 CSS*/
+.footer-widget-3{
+    grid-area: some;
+    display: flex;
+    margin-left: 41%;
+    justify-content: center;
+}
+
+/*størrelse på instagram icon*/
+.wp-image-170 {
+    width: 80%;
+    height: auto;
+}
+
+/*størrelse på facebook icon*/
+.wp-image-169 {
+    width: 80%;
+    height: auto;
+}
+
+/*widget 4 CSS*/
+.footer-widget-4{
+    grid-area: tekst;
+    margin-left: 10%;
+}
+/*SLUT*/
+
+
+/*FORSIDE CSS*/
+/*Hero/Coverbillede CSS*/
+/*rubrikken på hero-billedet*/
+.landing-hero-h2 {
+    width: 25rem;
+}
 }
