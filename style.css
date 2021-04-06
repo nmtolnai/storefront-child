@@ -37,32 +37,17 @@
 }
 /*SLUT*/
 
-/*CSS til Logo i headeren*/
-.logo-flex {
-    width: 100vw;
-    position: fixed;
-    display: flex;
-    justify-content: center;
+/*logo i headeren*/
+.custom-logo-link {
+    width: 15%;
+    margin-left: 60%;
 }
 
-.header-logo-link {
-    position: absolute;
-    align-self: center;
-    width: 8%;
-    top: 0.5rem;
-    height: auto;   
-}
-
-.header-logo {
-width: 70%;
-height: auto; 
-}
-/*SLUT*/
 
 /*Navigationen i headeren*/
 .storefront-primary-navigation {
     position: absolute;
-    top: 1rem;
+    top: 0.8rem;
     width: 83vw;
     left: 8vw;
 }
@@ -130,7 +115,7 @@ height: auto;
 .footer-widget-3{
     grid-area: some;
     display: flex;
-    margin-left: 8rem;
+    margin-left: 8.3rem;
     width: 20rem;
 }
 
@@ -561,15 +546,9 @@ label {
 /*SLUT*/
 
 /*CSS til Logo i headeren*/
-.header-logo-link {
-    top: 0;  
+.custom-logo-link {
+    width: 17%;
 }
-
-.header-logo {
-width: 100%;
-height: auto;
-}
-/*SLUT*/
 
 /*Navigationen i headeren*/
 .storefront-primary-navigation {
@@ -606,6 +585,11 @@ height: auto;
     "info tekst"
 }
 
+/*widget 2 CSS*/
+.footer-widget-2 {
+    margin-left: 20%;
+}
+
 /*widget 3 CSS*/
 .footer-widget-3{
     grid-area: some;
@@ -629,7 +613,12 @@ height: auto;
 /*widget 4 CSS*/
 .footer-widget-4{
     grid-area: tekst;
-    margin-left: 10%;
+    margin-left: 30%;
+    margin-top: -2%;
+}
+
+.footer-widget4-text {
+    width: 15rem;
 }
 /*SLUT*/
 
@@ -667,21 +656,11 @@ height: auto;
 }
 
 /*CSS til Logo i headeren*/
-.logo-flex {
-    width: 400vw;
-    justify-content:flex-start;
-    margin-left: 2rem;
+.custom-logo-link {
+    width: 40%;
+    margin-left: 2%;
+    margin-top: 3%;
 }
-
-.header-logo-link {
-    top: 0.5rem;
-}
-
-.header-logo {
-width: 70%;
-height: auto; 
-}
-/*SLUT*/
 
 /*Navigationen i headeren*/
 .storefront-primary-navigation {
@@ -731,6 +710,12 @@ height: auto;
     margin-left: 34%;
 }
 
+/*widget 2 CSS*/
+.footer-widget-2 {
+    margin-left: 3%;
+}
+
+
 /*widget 2 informations tekst*/
 .footer-information {
     text-align: center;
@@ -751,6 +736,11 @@ height: auto;
 /*widget 4 overskrift CSS*/
 .footer-widget4-h5 {
     margin-left: 26%;
+}
+
+/*widget 4 tekst CSS*/
+.footer-widget4-text {
+    margin-left: 14%;
 }
 
 /*info tekst nederst i footer*/
